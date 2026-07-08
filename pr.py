@@ -1,7 +1,12 @@
 # print("hello rachit")
 
-a = input("enter the number : ")
-b = input("enter the number : ")
+# a = input("enter the number : ")
+# b = input("enter the number : ")
 
-sum = a + b
-print(f"Your multiplication is : {sum}")
+# sum = a + b
+# print(f"Your multiplication is : {sum}")
+
+a = float(input("enter the number a : "))
+b = float(input("enter the number b : "))
+
+print("avg=", (a + b) / 2)
