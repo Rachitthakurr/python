@@ -1,6 +1,7 @@
 # print("hello rachit")
-a = ("enter the number : ")
-b = ("enter the number : ")
 
-sum = float(a) * float(b)
+a = input("enter the number : ")
+b = input("enter the number : ")
+
+sum = a + b
 print(f"Your multiplication is : {sum}")
