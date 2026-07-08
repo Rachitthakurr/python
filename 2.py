@@ -1,13 +1,12 @@
-name = "rachit thakur"
-age = 20 
-gpa = 8.25
-is_student = True
+marks = int(input("enter student marks : "))
 
-print(type(name))
-print(type(age))
-print(type(gpa))
-print(type(is_student))
+if(marks >= 90):
+    grade = "A"
+elif(marks >= 80 and marks < 90):
+    grade = "B"
+elif(marks >= 70 and marks <80):
+    grade = "C"
+else:
+    grade = "D"
 
-age = str(age)
-age += "1"
-print(age)
+print("grade of the student ->", grade)
