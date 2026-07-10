@@ -10,8 +10,21 @@ print(type(is_student))
 
 age = str(age)
 age += "1"
-<<<<<<< HEAD
+
 print(age)
-=======
+
 print(age)
->>>>>>> ce930b71535c65ce80993e0656f579a60a6a55a9
+
+marks = int(input("enter student marks : "))
+
+if(marks >= 90):
+    grade = "A"
+elif(marks >= 80 and marks < 90):
+    grade = "B"
+elif(marks >= 70 and marks <80):
+    grade = "C"
+else:
+    grade = "D"
+
+print("grade of the student ->", grade)
+
