@@ -10,4 +10,8 @@ print(type(is_student))
 
 age = str(age)
 age += "1"
+<<<<<<< HEAD
 print(age)
+=======
+print(age)
+>>>>>>> ce930b71535c65ce80993e0656f579a60a6a55a9
