@@ -1,11 +1,11 @@
-# dict = {
-#     # key       Value
-#     "name" : "rachit thakur",
-#     "subject" : ['py', 'c', 'bio'],
-#     "age" : 35,
-#     "cgpa" : 9.4,
-# }
-# print(dict)
+dict = {
+    # key       Value
+    "name" : "rachit thakur",
+    "subject" : ['py', 'c', 'bio'],
+    "age" : 35,
+    "cgpa" : 9.4,
+}
+print(dict)
 
 info = {
     "name" : "rachitv thakur",

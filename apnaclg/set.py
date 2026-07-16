@@ -1,12 +1,12 @@
-# collection = input("enter the number: ")
-# collection ={1,3,4,5,6,}
-# print(collection)
-# print(type(collection))
-# print(len(collection))
+collection = input("enter the number: ")
+collection ={1,3,4,5,6,}
+print(collection)
+print(type(collection))
+print(len(collection))
 
-# coll ={}
-# coll =set()
-# print(type(coll))
+coll ={}
+coll =set()
+print(type(coll))
 
 # set method 
 
