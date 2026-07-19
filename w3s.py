@@ -50,3 +50,15 @@ def func():
 func()
 
 print("python is " + x)     
+
+
+
+x = "awesome"
+
+def func():
+    global x
+    x ="fantastic"
+
+func()
+
+print("python is " + x)

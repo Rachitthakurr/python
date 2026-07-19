@@ -1,42 +1,42 @@
 #while loop 
-# i = 1
+i = 1
 
-# while i<=5:
-#     print("hello")
-#     i += 1
-# print("count")
+while i<=5:
+    print("hello")
+    i += 1
+print("count")
 
-# i = 1
+i = 1
 
-# while i<=5:
-#     print("hello", i)
-#     i += 1
-# print("count")
+while i<=5:
+    print("hello", i)
+    i += 1
+print("count")
 
 #print number from 1 to 100 with while loop
 
-# i = 1
+i = 1
 
-# while i <= 100:
-#     print(i)
-#     i += 1
-# print("loop is ended")
+while i <= 100:
+    print(i)
+    i += 1
+print("loop is ended")
 
 
-# i = 100
+i = 100
 
-# while i >= 1:
-#     print(i)
-#     i -= 1
-# print("loop is ended")
+while i >= 1:
+    print(i)
+    i -= 1
+print("loop is ended")
 
 #print the multiplication table of a number n 
 
-# n = int(input(" enter the number: "))
-# i = 1
-# while i<=10:
-#     print(n*i)
-#     i += 1
+n = int(input(" enter the number: "))
+i = 1
+while i<=10:
+    print(n*i)
+    i += 1
 
 #print the elment of thr following list using a loop
 
