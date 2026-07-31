@@ -42,15 +42,15 @@
 
 # 4 WAF TO FIND IN WHICH LINE OF THE FILE DOES THE WORD "LEARING" OCCUR FIRST?
 
-def check_for_word():
-    word = "Python"
+# def check_for_word():
+#     word = "Python"
 
-    with open("demo.txt", "r") as f:
-        data = f.read()
-        if(word in data):
-            print("Found")
-        else:
-            print("Not Found")
+#     with open("demo.txt", "r") as f:
+#         data = f.read()
+#         if(word in data):
+#             print("Found")
+#         else:
+#             print("Not Found")
 
 # def check_for_line():
 #     word ="Python"
@@ -69,14 +69,41 @@ def check_for_word():
 
 # print(check_for_line())
 
-def check_for_line():
-    word= "Python"
+# def check_for_line():
+#     word= "Python"
 
-    with open("demo.txt", "r") as f:
-        for line_no, line in enumerate(f, start=1):
-            if word in line:
-                return line_no
+#     with open("demo.txt", "r") as f:
+#         for line_no, line in enumerate(f, start=1):
+#             if word in line:
+#                 return line_no
 
-    return -1
+#     return -1
 
-print(check_for_line())
+# print(check_for_line())
+
+#FROM A FILE CONTAINING NUMBER SEPRATED BY COMMA,
+# PRINT THE COUNT OF EVEN NUMBER.
+# (1,2,45,66,86,90,101,221)
+
+# count = 0
+# with open("demo.txt", "r")as f:
+#     data = f.read()
+
+#     nums = data.split(",")
+#     for val in nums:
+#         if(int(val) % 2 ==0):
+#             count += 1
+
+# print(count)
+
+with open("demo.txt", "r")as f:
+    data = f.read()
+    print(data)
+
+    num = ""
+    for i in range(len(data)):
+        if(data[i] ==  ","):
+            print(int(num))
+            num = ""
+        else:
+            num += data[i]

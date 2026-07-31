@@ -1,12 +1,14 @@
+class student:
+#     name ="Rachit Thakur"
 
-# with open("demo.txt","r")as f:
-#     data = f.read()
+# s1 = student()
+# print(s1.name)
 
-# new_data = data.replace("Java" , "Python")
-# new_data = data.replace("java" , "Python")
-# # new_data = data.replace("I" , "i")
 
-# print(new_data)
+# class car:
+#     name="BMW"
+#     color="GREY"
 
-# with open("demo.txt", "w") as f:
-#     f.write(new_data)
+# c1 = car()
+# print(c1.name)
+# print(c1.color)

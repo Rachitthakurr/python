@@ -1,4 +1,2 @@
-Hi everyone
-we are learning filei/o
-using Python
-I like programing in Python.
+
+1,2,45,55,86,76,334,23,28,90,101,128
