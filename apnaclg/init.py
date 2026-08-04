@@ -58,11 +58,16 @@ class student:
         self.name = name 
         self.marks = marks
 
+    @staticmethod
+    def hello():
+        print("Hello")
+
     def get_avg(self):
         sum = 0
         for val in self.marks:
             sum += val
         print("hi", self.name,"your avg score is: ", sum/3)
 
-s1 =student("tony stark",[99,44,77])
+s1 =student("tony stark",[99,44,75])
 s1.get_avg()
+s1.hello()
